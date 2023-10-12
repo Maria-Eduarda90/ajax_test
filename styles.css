@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 8px;
+    object-fit: cover; 
+}
+
+button {
+    background: #09a6a3;
+    border: 0;
+    cursor: pointer;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+}
